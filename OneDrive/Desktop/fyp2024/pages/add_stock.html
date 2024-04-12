@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product</title>
+  <link rel="stylesheet" href="./css/add-product.css">
+</head>
+<body>
+  <main>
+    <h1>Raise your stock</h1>
+    <form action="" method="post">
+      <div class="product-add-category">
+        <label for="category-product">Category</label>
+        <select name="category-product" class="category-product" id="">
+          <option value="all">All</option>
+          <option value="desktops">Desktops</option>
+          <option value="laptops">Laptops</option>
+          <option value="phones">Phones</option>
+        </select>
+      </div>
+      <div class="product-details">
+        <label for="product-name">Product Name</label>
+        <textarea name="product-details" id="" cols="30" rows="10" placeholder="Write Product Details"></textarea>
+      </div>
+      <div class="buying-price">
+        <label for="buying-price">Buying Price</label>
+        <input type="number" name="buying-price" id="" placeholder="Enter Buying Price">
+      </div>
+      <div class="selling-price">
+        <label for="selling-price">Selling Price</label>
+        <input type="number" name="selling-price" id="" placeholder="Enter Selling Price">
+      </div>
+      <div class="product-img">
+        <label for="product-img">Product Image</label>
+        <input type="file" name="product-img" id="">
+      </div>
+      <button class="submit-add-product">Add</button>
+    </form>
+  </main>
+</body>
+</html>
